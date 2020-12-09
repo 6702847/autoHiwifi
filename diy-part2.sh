@@ -15,4 +15,4 @@ sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 git clone https://github.com/syncthing/syncthing.git package/lean/syncthing
 git clone https://github.com/openwrt/luci/tree/openwrt-19.07/applications/luci-app-watchcat.git package/lean/luci-app-watchcat
-git clone https://openwrt.org/packages/pkgdata/watchcat package/lean/watchcat
+git clone https://openwrt.org/packages/pkgdata/watchcat.git package/lean/watchcat

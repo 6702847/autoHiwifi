@@ -13,4 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
-git clone https://github.com/syncthing/syncthing.git package/utils/syncthing
+git clone https://github.com/syncthing/syncthing.git package/lean/syncthing
+git clone https://github.com/syncthing/syncthing.git package/lean/syncthing

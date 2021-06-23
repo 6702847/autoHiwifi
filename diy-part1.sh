@@ -11,5 +11,7 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# add helloworld
+echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
 

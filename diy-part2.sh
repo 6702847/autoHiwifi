@@ -19,3 +19,5 @@ sed -i "s/R21[.0-9]/R$cur_date ]R21/g" package/lean/default-settings
 # theme argon
 rm -rf  package/lean/luci-theme-argon  
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 
+# luci-app-clash
+git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash

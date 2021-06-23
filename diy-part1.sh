@@ -18,7 +18,7 @@ echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.
 # git clone https://github.com/fw876/helloworld
 
 # theme argon
-rm -rf  package/lean/luci-theme-argon  
-git clone  https://github.com/jerrykuku/luci-theme-argon  package/lean/luci-theme-argon
+# rm -rf  package/lean/luci-theme-argon  
+# git clone  https://github.com/jerrykuku/luci-theme-argon  package/lean/luci-theme-argon
 # luci-app-clash
 git clone https://github.com/frainzy1477/luci-app-clash  package/lean/luci-app-clash

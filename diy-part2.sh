@@ -16,4 +16,6 @@ sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 cur_date="`date +%Y-%m-%d`"
 sed -i "s/R21[.0-9]/R$cur_date ]R21/g" package/lean/default-settings
 # git clone https://github.com/fw876/helloworld
-
+# theme argon
+rm -rf  package/lean/luci-theme-argon  
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 

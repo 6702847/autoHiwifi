@@ -15,5 +15,5 @@ sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 # Update date
 cur_date="`date +%Y-%m-%d`"
 sed -i "s/R21[.0-9]/R$cur_date ]R21/g" package/lean/default-settings
-git clone https://github.com/fw876/helloworld
+# git clone https://github.com/fw876/helloworld
 

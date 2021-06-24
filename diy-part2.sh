@@ -19,6 +19,6 @@ sed -i "s/R21[.0-9]/R$cur_date/g" package/lean/default-settings/files/zzz-defaul
 # git clone https://github.com/fw876/helloworld
 # theme argon
 rm -rf  package/lean/luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git 
+git clone  https://github.com/jerrykuku/luci-theme-argon.git package/lean/
 # luci-app-clash
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/

@@ -9,16 +9,8 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 # Update date
 cur_date="`date +%Y-%m-%d`"
-sed -i "s/R21[.0-9]/R$cur_date/g" package/lean/default-settings/files/zzz-default-settings
-
-# git clone https://github.com/fw876/helloworld
-# theme argon
-rm -rf  package/lean/luci-theme-argon  
-git clone  https://github.com/jerrykuku/luci-theme-argon.git package/lean/
-# luci-app-clash
-git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/
+sed -i "s/R2[.0-9-]*/R$cur_date/g" package/lean/default-settings/files/zzz-default-settings

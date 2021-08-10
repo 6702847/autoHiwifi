@@ -11,6 +11,8 @@
 #
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
+#2. Deassociate bootstrap as default theme
+sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' openwrt/feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 # Update date
 cur_date="`date +%Y-%m-%d`"
 sed -i "s/R2[.0-9-]*/R$cur_date/g" package/lean/default-settings/files/zzz-default-settings

@@ -18,7 +18,7 @@
 # rm -rf  package/lean/luci-theme-argon 
 # git clone  https://github.com/jerrykuku/luci-theme-argon  package/lean/luci-theme-argon
 
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
+# echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
 echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default

@@ -25,7 +25,7 @@ echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> fee
 # echo "src-git pushbot  https://github.com/zzsj0928/luci-app-pushbot.git" >> feeds.conf.default
 # git clone https://github.com/fw876/helloworld
 # git clone https://github.com/linkease/istore
-git clone https://github.com/openwrt/luci/tree/openwrt-21.02/libs/luci-lib-ipkg
+git clone https://github.com/openwrt/luci
 
 
 

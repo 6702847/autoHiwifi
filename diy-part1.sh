@@ -21,7 +21,7 @@
 # echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
 # echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
-# echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 # echo "src-git pushbot  https://github.com/zzsj0928/luci-app-pushbot.git" >> feeds.conf.default
 # git clone https://github.com/fw876/helloworld
 # git clone https://github.com/linkease/istore

@@ -20,7 +20,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 */18 * * *
+    - cron: 0 */4 * * *
   #  每天晚上 22 点自动编译。
   #  watch:
   #    types: started
@@ -70,7 +70,7 @@ jobs:
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       with:
-        retain_days: 7
+        retain_days: 1
         keep_minimum_runs: 36
 
     - name: Remove old Releases

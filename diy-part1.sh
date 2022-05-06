@@ -27,6 +27,9 @@ echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> fee
 # git clone https://github.com/linkease/istore
 git clone https://github.com/openwrt/luci
 
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/adguardhome package/
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-adguardhome package/
+
 
 
 

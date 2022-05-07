@@ -23,6 +23,8 @@ echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.con
 echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 echo "src-git pushbot  https://github.com/zzsj0928/luci-app-pushbot.git" >> feeds.conf.default
+echo "src-git luci-app-adguardhome  https://github.com/rufengsuixing/luci-app-adguardhome.git" >> feeds.conf.default
+
 
 
 

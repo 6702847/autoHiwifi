@@ -23,7 +23,7 @@ echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.con
 echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> feeds.conf.default
-echo "src-git  luci-app-wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon.git" >> feeds.conf.default
+echo "src-git  wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon.git" >> feeds.conf.default
 
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome

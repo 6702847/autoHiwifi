@@ -20,12 +20,12 @@
 
 
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+echo 'src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng.git' >>feeds.conf.default
 echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> feeds.conf.default
 echo "src-git  wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-adguardhome   
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 
 
 

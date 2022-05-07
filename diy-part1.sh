@@ -26,12 +26,8 @@ echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> fee
 echo "src-git  luci-app-wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon.git" >> feeds.conf.default
 
 
-
-
-
-
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 
 
 

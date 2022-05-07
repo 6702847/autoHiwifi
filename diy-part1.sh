@@ -18,20 +18,16 @@
 # rm -rf  package/lean/luci-theme-argon 
 # git clone  https://github.com/jerrykuku/luci-theme-argon  package/lean/luci-theme-argon
 
-# echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
-#echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
-#echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
-#echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
-# echo "src-git pushbot  https://github.com/zzsj0928/luci-app-pushbot.git" >> feeds.conf.default
-# git clone https://github.com/fw876/helloworld
-# git clone https://github.com/linkease/istore
+echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
+echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
+echo "src-git appfilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
+echo "src-git pushbot  https://github.com/zzsj0928/luci-app-pushbot.git" >> feeds.conf.default
+
 
 
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
-#sed -i '$a src-git dnsfilter https://github.com/kiddin9/luci-app-dnsfilter' feeds.conf.default
-#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
-echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> feeds.conf.default
+
 

@@ -25,6 +25,7 @@ sed -i "/xiaoqingfeng/d" "feeds.conf.default"
 sed -i "/openclash/d" "feeds.conf.default"
 sed -i "/pushbot/d" "feeds.conf.default"
 sed -i "/wrtbwmon/d" "feeds.conf.default"
+sed -i "/smartdns/d" "feeds.conf.default"
 
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
@@ -32,6 +33,10 @@ echo 'src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfen
 echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> feeds.conf.default
 echo "src-git  wrtbwmon https://github.com/brvphoenix/luci-app-wrtbwmon.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
+echo "src-git smartdns https://github.com/pymumu/smartdns" >> feeds.conf.default
+
+rm -fR ./package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
 

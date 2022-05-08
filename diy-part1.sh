@@ -30,8 +30,6 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feed
 #echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
 echo "src-git smartdns https://github.com/pymumu/smartdns" >> feeds.conf.default
-
-rm -fR ./package/OpenAppFilter
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+echo "src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
 
 

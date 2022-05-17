@@ -29,6 +29,8 @@
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
 echo "src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
+rm -rf packages/net/smartdns
+svn co https://github.com/openwrt/packages/trunk/net/smartdns packages/net/smartdns
 
 
 

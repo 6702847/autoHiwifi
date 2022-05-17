@@ -27,12 +27,10 @@
 
 #echo "src-git helloworld https://github.com/fw876/helloworld.git" >> feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
-#echo "src-git pushbot  https://github.com/tty228/luci-app-serverchan.git" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> feeds.conf.default
-#echo "src-git smartdns https://github.com/pymumu/smartdns.git" >> feeds.conf.default
 echo "src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
-#git clone  https://github.com/pymumu/openwrt-smartdns ./feeds/packages/net/smartdns/
-git clone https://github.com/pymumu/luci-app-smartdns -b lede feeds/luci/applications/luci-app-smartdns/
+
+
 
 
 

@@ -26,9 +26,9 @@
 echo "src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git" >> feeds.conf.default
 
 # Add luci-app-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall packages/openwrt-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall2 packages/openwrt-passwall2
-git clone https://github.com/vernesong/OpenClash packages/OpenClash
+git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
+git clone https://github.com/vernesong/OpenClash package/OpenClash
 
 
 

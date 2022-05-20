@@ -26,15 +26,6 @@ sed -i 's/OpenWrt/HIWIFI-4/g' package/base-files/files/bin/config_generate
 # Modify default theme
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Add kernel build user
-[ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
-    echo 'CONFIG_KERNEL_BUILD_USER="QQ"' >>.config ||
-    sed -i 's@\(CONFIG_KERNEL_BUILD_USER=\).*@\1$"P3TERX"@' .config
-
-# Add kernel build domain
-[ -z $(grep "CONFIG_KERNEL_BUILD_DOMAIN=" .config) ] &&
-    echo 'CONFIG_KERNEL_BUILD_DOMAIN="http://mtw.so/5V3yHM"' >>.config ||
-    sed -i 's@\(CONFIG_KERNEL_BUILD_DOMAIN=\).*@\1$"GitHub Actions"@' .config
 
 
 

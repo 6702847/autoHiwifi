@@ -33,6 +33,7 @@ git clone https://github.com/kenzok8/small-package package/small-package
 #git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
 #git clone https://github.com/vernesong/OpenClash package/OpenClash
+#svn co https://github.com/kenzok8/small-package/trunk/luci-app-smartdns   package/luci-app-smartdns
 
 
 

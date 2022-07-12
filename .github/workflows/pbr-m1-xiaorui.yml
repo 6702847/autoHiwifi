@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Pbr-M1-xiaorui
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
